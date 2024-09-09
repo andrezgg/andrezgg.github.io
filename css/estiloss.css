@@ -1,0 +1,396 @@
+@charset "utf-8";
+* 
+{
+	padding: 0;
+    margin: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+html{
+	font-size: 10px;
+}
+#contenedor  {
+    width: 100%;
+    height: 1800px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#contenedor header {
+    width: 100%;
+    height: 5%;
+    background-repeat: no-repeat;
+    background-color: #0051FF;
+    float: left;
+}
+
+header div img {
+    margin: 1%;
+    float: left;
+}
+
+header nav ul {
+    font-size: 2rem;
+    text-decoration: none;
+    padding: 1%;
+    list-style-type: none;
+    margin-right: 5%;
+}
+#navv1 a  {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace;
+}
+#navv2 a  {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace;
+}
+#navv3 a  {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace;
+}
+#navv4 a  {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace;
+}
+#navv1 a:hover {
+    font-size: 2.2rem;
+}
+#navv2 a:hover {
+    font-size: 2.2rem;
+}
+#navv3 a:hover {
+    font-size: 2.2rem;
+}
+#navv4 a:hover {
+    font-size: 2.2rem;
+}
+
+#navv1 {
+    float: right;
+    padding: 1%;
+    text-align: center;
+}
+
+#navv2 {
+    float: right;
+    padding: 1%;
+    text-decoration: none;
+    text-align: center;
+}
+#navv3 {
+    float: right;
+    padding: 1%;
+    text-decoration: none;
+    text-align: center;
+}
+#navv4 {
+    float: right;
+    padding: 1%;
+    text-decoration: none;
+    text-align: center;
+}#tit {
+    width: 100%;
+    height: 8%;
+    float: left;
+    background-repeat: no-repeat;
+    background-image: url(../img/degraz2.png);
+}
+#tit h1 {
+    text-align: center;
+    font-size: 400%;
+    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    background-repeat: no-repeat;
+    padding-top: 5%;
+}
+
+
+#art1 {
+    padding-top: 3%;
+    padding-right: 3%;
+    padding-left: 3%;
+    padding-bottom: 3%;
+    width: 50%;
+    float: left;
+    font-size: 180%;
+    height: 15%;
+}
+#arts2 {
+    float: left;
+    width: 50%;
+    height: 15%;
+    font-size: 180%;
+}
+#stext  {
+    width: 100%;
+    padding: 3%;
+    float: left;
+}
+
+#stext p {
+    font-size: 180%;
+}
+#titt2 {
+
+
+}
+#titt2 h1  {
+    text-align: center;
+    font-size: 400%;
+    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+#secpl1 {
+    width: 100%;
+    height: 20%;
+    margin-top: 3%;
+    float: left;
+}
+#contenedor #secpl1 #pp1 {
+    width: 33.3%;
+    height: 85%;
+    float: left;
+    background-image: url(../img/mercu.png);
+    background-repeat: no-repeat;
+    background-size: 60% auto;
+    text-align: center;
+    background-position: center 0%;
+}
+#contenedor #secpl1 #pp2 {
+    width: 33.3%;
+    height: 95
+;
+    float: left;
+    background-image: url(../img/venus.png);
+    background-repeat: no-repeat;
+    background-position: center 0%;
+    height: 85%;
+    background-size: 60% auto;
+}
+#contenedor #secpl1 #pp3 {
+    height: 85%;
+    float: left;
+    width: 33.3%;
+    background-image: url(../img/tierra.png);
+    background-repeat: no-repeat;
+    background-position: center 0%;
+    background-size: 60% auto;
+}
+#pp1 h1  {
+    padding-top: 50%;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    font-size: 350%;
+    font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace;
+}
+#pp2 h1 {
+    text-align: center;
+    font-size: 350%;
+    font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace;
+    padding-top: 50%;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+}
+#pp3 h1 {
+    text-align: center;
+    font-size: 350%;
+    font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace;
+    padding-top: 50%;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+}
+
+#secpl2 {
+    width: 100%;
+    height: 20%;
+    margin-top: 3%;
+    float: left;
+}
+#contenedor #secpl2 #pp4 {
+    width: 33.3%;
+    height: 95%;
+    float: left;
+    background-repeat: no-repeat;
+    background-size: 60% auto;
+    text-align: center;
+    background-position: center 0%;
+    background-image: url(../img/marte.png);
+}
+#contenedor #secpl2 #pp5 {
+    width: 33.3%;
+    height: 95
+;
+    float: left;
+    background-repeat: no-repeat;
+    background-position: center 0%;
+    height: 95%;
+    background-size: 60% auto;
+    background-image: url(../img/jupiter.png);
+}
+#contenedor #secpl2 #pp6 {
+    height: 95%;
+    float: left;
+    width: 33.3%;
+    background-repeat: no-repeat;
+    background-position: center 0%;
+    background-size: 60% auto;
+    background-image: url(../img/saturn.png);
+}
+#pp4 h1  {
+    padding-top: 52%;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    font-size: 350%;
+    font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace;
+}
+#pp5 h1 {
+    text-align: center;
+    font-size: 350%;
+    font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace;
+    padding-top: 52%;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+}
+#pp6 h1 {
+    text-align: center;
+    font-size: 350%;
+    font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace;
+    padding-top: 52%;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+}
+#secpl3 {
+    width: 100%;
+    height: 18%;
+    float: left;
+}
+#pp7 {
+    width: 50%;
+    height: 95%;
+    background-image: url(../img/urano.png);
+    background-repeat: no-repeat;
+    background-position: center 0%;
+    background-size: 40% auto;
+    float: left;
+}
+#pp8 {
+    width: 50%;
+    height: 95%;
+    background-image: url(../img/nep.png);
+    float: left;
+    background-repeat: no-repeat;
+    background-size: 40% auto;
+    background-position: center 0%;
+}
+#secpl3 #pp7 h1 {
+    padding-top: 35%;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    text-align: center;
+    font-size: 350%;
+    font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace;
+}
+#secpl3 #pp8 h1 {
+    padding-top: 35%;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    text-align: center;
+    font-size: 350%;
+    font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace;
+}
+#fot  {
+    width: 50%;
+    height: 10%;
+    float: left;
+    background-color: #0051FF;
+    margin-top: 3%;
+}
+#fot h1 {
+    color: #FFFFFF;
+    margin-top: 2%;
+    margin-right: 8%;
+    margin-left: 2%;
+    margin-bottom: 2%;
+    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-align: right;
+    font-size: 200%;
+}
+#a {
+    text-align: right;
+    text-decoration: none;
+}
+#foot1 a {
+    text-decoration: none;
+    color: #00FFEE;
+    margin-top: 2%;
+    margin-right: 13.5%;
+    margin-bottom: 2%;
+    margin-left: 2%;
+    font-size: 150%;
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+}
+#foot2 a {
+    text-decoration: none;
+    color: #00FFEE;
+    margin-top: 2%;
+    margin-right: 4%;
+    margin-bottom: 2%;
+    margin-left: 2%;
+    padding-right: 8%;
+    font-size: 150%;
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+}
+#foot3 a {
+    text-decoration: none;
+    color: #00FFEE;
+    margin-top: 2%;
+
+
+
+
+    margin-right: 3,
+%
+%;
+    margin-bottom: 2%;
+    margin-left: 2%;
+    padding-right: 8%;
+    font-size: 150%;
+    margin-right: 3.5%;
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+}
+#fot2 {
+    background-color: #0051FF;
+    width: 50%;
+    height: 10%;
+    float: left;
+    margin-top: 3%;
+}
+#fot2 h1 {
+    text-align: left;
+    color: #FFFFFF;
+    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin-top: 2%;
+    margin-right: 2%;
+    margin-left: 4%;
+    margin-bottom: 2%;
+    font-size: 200%;
+}
+#fotimg img {
+    margin-top: 1%;
+    margin-right: 2.6%;
+    margin-left: 1%;
+    margin-bottom: 2.6%;
+    float: left;
+}

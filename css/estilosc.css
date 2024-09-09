@@ -1,0 +1,217 @@
+@charset "utf-8";
+* 
+{
+	padding: 0;
+    margin: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+html{
+	font-size: 10px;
+}
+#contenedor  {
+    width: 100%;
+    height: 650px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#contenedor header {
+    width: 100%;
+    height: 15%;
+    background-repeat: no-repeat;
+    background-color: #0051FF;
+    float: left;
+}
+
+header div img {
+    margin: 1%;
+    float: left;
+}
+
+header nav ul {
+    font-size: 2rem;
+    text-decoration: none;
+    padding: 1%;
+    list-style-type: none;
+    margin-right: 5%;
+}
+#navv1 a  {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace;
+}
+#navv2 a  {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace;
+}
+#navv3 a  {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace;
+}
+#navv4 a  {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace;
+}
+#navv1 a:hover {
+    font-size: 2.2rem;
+}
+#navv2 a:hover {
+    font-size: 2.2rem;
+}
+#navv3 a:hover {
+    font-size: 2.2rem;
+}
+#navv4 a:hover {
+    font-size: 2.2rem;
+}
+
+#navv1 {
+    float: right;
+    padding: 1%;
+    text-align: center;
+}
+
+#navv2 {
+    float: right;
+    padding: 1%;
+    text-decoration: none;
+    text-align: center;
+}
+#navv3 {
+    float: right;
+    padding: 1%;
+    text-decoration: none;
+    text-align: center;
+}
+#navv4 {
+    float: right;
+    padding: 1%;
+    text-decoration: none;
+    text-align: center;
+
+	}
+	#tits {
+    width: 100%;
+    height: 13%;
+    float: left;
+    background-repeat: repeat-x;
+    background-image: url(../img/degraz2.png);
+}
+
+#tits h1 {
+    text-align: center;
+    font-size: 400%;
+    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    background-repeat: no-repeat;
+    padding-top: 3%;
+}
+#txtc {
+    width: 50%;
+    height: 25%;
+    float: left;
+}
+#txtc p {
+    font-size: 250%;
+    font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+    padding-left: 6%;
+    padding-top: 3%;
+    float: left;
+}
+#cajas  {
+    width: 50%;
+    float: left;
+    height: 25%;
+    padding-top: 3%;
+    padding-right: 5%;
+    padding-bottom: 5%;
+    padding-left: 5%;
+}
+
+#fot  {
+    width: 50%;
+    height: 22%;
+    float: left;
+    background-color: #0051FF;
+    margin-top: 3%;
+}
+#fot h1 {
+    color: #FFFFFF;
+    margin-top: 2%;
+    margin-right: 8%;
+    margin-left: 2%;
+    margin-bottom: 2%;
+    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-align: right;
+    font-size: 200%;
+}
+#a {
+    text-align: right;
+    text-decoration: none;
+}
+#foot1 a {
+    text-decoration: none;
+    color: #00FFEE;
+    margin-top: 2%;
+    margin-right: 13.5%;
+    margin-bottom: 2%;
+    margin-left: 2%;
+    font-size: 150%;
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+}
+#foot2 a {
+    text-decoration: none;
+    color: #00FFEE;
+    margin-top: 2%;
+    margin-right: 4%;
+    margin-bottom: 2%;
+    margin-left: 2%;
+    padding-right: 8%;
+    font-size: 150%;
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+}
+#foot3 a {
+    text-decoration: none;
+    color: #00FFEE;
+    margin-top: 2%;
+
+
+
+
+  
+    margin-bottom: 2%;
+    margin-left: 2%;
+    padding-right: 8%;
+    font-size: 150%;
+    margin-right: 3.5%;
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+}
+#fot2 {
+    background-color: #0051FF;
+    width: 50%;
+    height: 22%;
+    float: left;
+    margin-top: 3%;
+}
+#fot2 h1 {
+    text-align: left;
+    color: #FFFFFF;
+    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin-top: 2%;
+    margin-right: 2%;
+    margin-left: 4%;
+    margin-bottom: 2%;
+    font-size: 200%;
+}
+#fotimg img {
+    margin-top: 1%;
+    margin-right: 2.6%;
+    margin-left: 1%;
+    margin-bottom: 2.6%;
+    float: left;
+}

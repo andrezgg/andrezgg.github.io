@@ -1,0 +1,240 @@
+@charset "utf-8";
+* 
+{
+	padding: 0;
+    margin: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+html{
+	font-size: 10px;
+}
+#contenedor  {
+    width: 100%;
+    height: 1200px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#contenedor header {
+    width: 100%;
+    height: 8%;
+    background-repeat: no-repeat;
+    background-color: #0051FF;
+    float: left;
+}
+
+header div img {
+    margin: 1%;
+    float: left;
+}
+
+header nav ul {
+    font-size: 2rem;
+    text-decoration: none;
+    padding: 1%;
+    list-style-type: none;
+    margin-right: 5%;
+}
+#navv1 a  {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace;
+}
+#navv2 a  {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace;
+}
+#navv3 a  {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace;
+}
+#navv4 a  {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace;
+}
+#navv1 a:hover {
+    font-size: 2.2rem;
+}
+#navv2 a:hover {
+    font-size: 2.2rem;
+}
+#navv3 a:hover {
+    font-size: 2.2rem;
+}
+#navv4 a:hover {
+    font-size: 2.2rem;
+}
+
+#navv1 {
+    float: right;
+    padding: 1%;
+    text-align: center;
+}
+
+#navv2 {
+    float: right;
+    padding: 1%;
+    text-decoration: none;
+    text-align: center;
+}
+#navv3 {
+    float: right;
+    padding: 1%;
+    text-decoration: none;
+    text-align: center;
+}
+#navv4 {
+    float: right;
+    padding: 1%;
+    text-decoration: none;
+    text-align: center;
+}
+#secp {
+    width: 100%;
+    height: 87vh;
+    background-repeat: no-repeat;
+}
+#secimg {
+    width: 100%;
+    height: 87vh;
+    float: left;
+    background-repeat: repeat-x;
+    background-image: url(../img/fondin.jpg);
+
+}
+
+
+#secp #secimg img {
+    width: 100%;
+    height: 87vh;
+    float: left;
+	
+}
+#contenedor #secp h1 {
+    position: relative;
+    color: #FFFFFF;
+    font-family: Audiowide;
+    width: 50%;
+    margin-top: 10%;
+    margin-right: 10%;
+    margin-left: 3%;
+    margin-bottom: 10%;
+    font-size: 500%;
+}
+
+#part1 {
+    width: 50%;
+    height: 30%;
+    float: left;
+}
+#part1 h1  {
+    padding-top: 3%;
+    padding-right: 10%;
+    padding-left: 5%;
+    padding-bottom: 5%;
+    font-size: 400%;
+    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #000000;
+    text-align: center;
+}
+#part1 p {
+    font-size: 180%;
+    padding-left: 5%;
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+}
+#p2 {
+    float: left;
+    width: 50%;
+    height: 30%;
+    text-align: center;
+}
+#fot  {
+    width: 50%;
+    height: 12%;
+    float: left;
+    background-color: #0051FF;
+    margin-top: 3%;
+}
+#fot h1 {
+    color: #FFFFFF;
+    margin-top: 2%;
+    margin-right: 8%;
+    margin-left: 2%;
+    margin-bottom: 2%;
+    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-align: right;
+    font-size: 200%;
+}
+#a {
+    text-align: right;
+    text-decoration: none;
+}
+#foot1 a {
+    text-decoration: none;
+    color: #00FFEE;
+    margin-top: 2%;
+    margin-right: 13.5%;
+    margin-bottom: 2%;
+    margin-left: 2%;
+    font-size: 150%;
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+}
+#foot2 a {
+    text-decoration: none;
+    color: #00FFEE;
+    margin-top: 2%;
+    margin-right: 4%;
+    margin-bottom: 2%;
+    margin-left: 2%;
+    padding-right: 8%;
+    font-size: 150%;
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+}
+#foot3 a {
+    text-decoration: none;
+    color: #00FFEE;
+    margin-top: 2%;
+
+
+
+
+    margin-right: 3,
+%
+%;
+    margin-bottom: 2%;
+    margin-left: 2%;
+    padding-right: 8%;
+    font-size: 150%;
+    margin-right: 3.5%;
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+}
+#fot2 {
+    background-color: #0051FF;
+    width: 50%;
+    height: 12%;
+    float: left;
+    margin-top: 3%;
+}
+#fot2 h1 {
+    text-align: left;
+    color: #FFFFFF;
+    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin-top: 2%;
+    margin-right: 2%;
+    margin-left: 4%;
+    margin-bottom: 2%;
+    font-size: 200%;
+}
+#fotimg img {
+    margin-top: 1%;
+    margin-right: 2.6%;
+    margin-left: 1%;
+    margin-bottom: 2.6%;
+    float: left;
+}
